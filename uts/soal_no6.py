@@ -41,7 +41,8 @@ plt.legend()
 plt.show()
 
 # Tentukan order ARIMA model (p, d, q)
-# Dalam prakteknya, Anda harus menentukan p, d, q berdasarkan ACF, PACF, atau kriteria lainnya
+# Dalam prakteknya, Anda harus menentukan p, d, q berdasarkan ACF,
+# PACF, atau kriteria lainnya
 p, d, q = 1, 1, 1
 
 # Fit model ARIMA
