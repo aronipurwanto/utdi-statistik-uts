@@ -4,10 +4,10 @@ import sympy as sp
 n, x = sp.symbols('n x')
 
 # Definisikan suku dari deret
-a_n = (8**(n-1) * x**n) / (3*n + 1)
+a_n = (3**n * x**(n-1)) / (2*n**2 + 1)
 
 # Hitung rasio a_(n+1) / a_n
-a_n1 = (8**n * x**(n+1)) / (3*(n+1) + 1)
+a_n1 = (3**(n+1) * x**n) / (2*(n+1)**2 + 1)
 ratio = sp.simplify(a_n1 / a_n)
 
 # Hitung limit dari rasio saat n mendekati tak hingga
